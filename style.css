@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2F4273;
+}
+
+#card {
+    height: auto;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.loan {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.input-comp {
+    border: 1px solid black;
+    height: 30px;
+    width: 295px;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+.input-group {
+    display: block;
+    width: 30px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #4A587A;
+    border-right: 1px solid black;
+}
+
+.interest-input-group {
+    display: block;
+    width: 30px;
+    padding: 5px 8px;
+    color: white;
+    background-color: #4A587A;
+    border-right: 1px solid black;
+}
+
+.Loan-inputTag,
+.interestInputTag {
+    display: inline-block;
+    height: 28px;
+    padding: 6px;
+    margin-bottom: 2px;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.repayment-yr {
+    display: inline-block;
+    height: 28px;
+    padding: 6px;
+    margin-bottom: 2px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.input-Bt {
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: #1C1E24;
+}
+.input-Bt:hover{
+    cursor: pointer;
+}
+#loading{
+    background-color: white;
+}
+#loading>:nth-child(1){
+    width: 380px;
+    object-fit: cover;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.result-comp {
+    border: 1px solid black;
+    height: 30px;
+    width: auto;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+.result-group {
+    display: block;
+    width: auto;
+    padding: 5px 5px;
+    background-color: #4A587A;
+    color: white;
+    border-right: 1px solid black;
+}
+
+.Monthly-payment{
+    display: inline-block;
+    height: 28px;
+    width: 66%;
+    padding :2px;
+    margin-bottom: 2px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.Total-payment {
+    display: inline-block;
+    height: 28px;
+    width: 72%;
+    padding :2px;
+    margin-bottom: 2px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.Total-interest{
+    display: inline-block;
+    height: 28px;
+    width: 74%;
+    padding :2px;
+    margin-bottom: 2px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
