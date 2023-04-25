@@ -81,12 +81,19 @@
 }
 #loading{
     background-color: white;
+    display: none;
 }
 #loading>:nth-child(1){
     width: 380px;
     object-fit: cover;
     background-color: white;
     /* border: 1px solid black; */
+}
+#result{
+    height:200px;
+    /* border:1px solid black; */
+    background-color: white;
+    display: none;
 }
 
 .result-comp {
@@ -136,4 +143,14 @@
     outline: none;
     border: none;
     background-color: white;
+}
+#alert{
+height: 40px;
+width: 300px;
+margin: auto;
+text-align: center;
+padding-top:10px;
+color: red;
+background-color: pink;
+border-radius: 5px;
 }

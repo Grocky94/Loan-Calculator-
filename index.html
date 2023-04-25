@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div id="card">
+    <form id="card">
         <h1 class="loan">Loan Calculator</h1>
         <div class="input-comp">
             <span class="input-group">&#8377</span>
-            <input class="Loan-inputTag" type="number" placeholder="Loan Amount" />
+            <input class="Loan-inputTag" type="number" placeholder="Loan Amount" autocomplete="off" />
         </div><br>
         <div class="input-comp">
             <span class="interest-input-group">%</span>
@@ -24,29 +24,31 @@
             <input class="repayment-yr" type="number" placeholder="Repayment years" />
         </div><br>
         <div class="input-comp">
-            <input class="input-Bt" type="button" value="Calculate" />
+            <input class="input-Bt" type="submit" value="Calculate" />
         </div><br>
 
         <!--Loader here -->
-        <!-- <div id="loading">
+        <div id="loading">
             <img src="/img/loading-list.gif" alt="">
-        </div> -->
-        <!--Result-->
-        <h4 class="loan">Result</h4>
-        <div class="result-comp">
-            <span class="result-group">Monthly Payment</span>
-            <input class="Monthly-payment" type="number" disabled />
-        </div><br>
-        <div class="result-comp">
-            <span class="result-group">Total Payment</span>
-            <input class="Total-payment" type="number" disabled />
-        </div><br>
-        <div class="result-comp">
-            <span class="result-group">Total Interest</span>
-            <input class="Total-interest" type="number" disabled />
         </div>
-    </div>
-<script src="/app.js"></script>
+        <!--Result-->
+        <div id="result">
+            <h4 class="loan">Result</h4>
+            <div class="result-comp">
+                <span class="result-group">Monthly Payment</span>
+                <input class="Monthly-payment" type="number" disabled />
+            </div><br>
+            <div class="result-comp">
+                <span class="result-group">Total Payment</span>
+                <input class="Total-payment" type="number" disabled />
+            </div><br>
+            <div class="result-comp">
+                <span class="result-group">Total Interest</span>
+                <input class="Total-interest" type="number" disabled />
+            </div>
+        </div>
+    </form>
+    <script src="/app.js"></script>
 </body>
 
 </html>
